@@ -1,0 +1,1008 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#f8f6ff">
+    <meta name="description" content="Ankita's portfolio showcasing her BCA education, web development internship, projects, and software testing interests.">
+
+    <title>Ankitha Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="cover img.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="page-progress" id="page-progress"></div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo" aria-label="Ankita home">
+                𝔸𝕟𝕜𝕚𝕥𝕙𝕒 𝕄𝕦𝕣𝕥𝕙𝕪<span></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <!-- <li><a href="#education" class="nav-link">Education</a></li> -->
+                <li><a href="#contact" class="nav-link nav-contact">Contact <span>↗</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero / Introduction -->
+        <section class="hero section-anchor" id="home">
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+
+            <div class="hero-container container">
+                <div class="hero-content reveal">
+                    <div class="availability">
+                        <span class="availability-dot"></span>
+                        Open to entry-level opportunities
+                    </div>
+
+                    <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                    <h1>
+                        Hi, I'm <span class="gradient-text">Ankitha</span>
+                        <br>
+                        <span class="hero-second-line">I love building and testing</span>
+                        <br>
+                        digital experiences.
+                    </h1>
+
+                    <h2 class="role-line">
+                        <span id="typing-text">BCA Graduate</span>
+                        <span class="typing-cursor" aria-hidden="true">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I am a BCA graduate interested in software development
+                        and software testing. I enjoy learning new technologies,
+                        solving problems, and turning ideas into useful projects.
+                        I am ready to learn, contribute, and grow with a team.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Let's Connect
+                        </a>
+                    </div>
+
+                    <div class="hero-socials" aria-label="Social profiles">
+                        <!-- Replace these links with your actual profiles -->
+                        <a href="https://www.linkedin.com/in/ankitha-murthy1369/" target="_blank"
+                           rel="noopener noreferrer" aria-label="LinkedIn">
+                            in
+                        </a>
+                        <a href="https://github.com/ankithaa1369/portfolio" target="_blank"
+                           rel="noopener noreferrer" aria-label="GitHub">
+                            gh
+                        </a>
+                        <span class="social-caption">Connect with me</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="photo-orbit orbit-one"></div>
+                    <div class="photo-orbit orbit-two"></div>
+
+                    <div class="photo-glow"></div>
+
+                    <div class="profile-photo">
+                        <img
+                            src="ankitha photo.jpeg"
+                            alt="Profile portrait of Ankita"
+                            fetchpriority="high">
+                    </div>
+
+                    <div class="floating-card floating-card-top">
+                        <span class="floating-icon">✦</span>
+                        <div>
+                            <strong>Always learning</strong>
+                            <small>Growing every day</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-bottom">
+                        <span class="floating-icon code-icon">&lt;/&gt;</span>
+                        <div>
+                            <strong>Build. Test. Improve.</strong>
+                            <small>My approach to technology</small>
+                        </div>
+                    </div>
+
+                    <div class="photo-caption">
+                        <span class="caption-line"></span>
+                        <span>Aspiring Software Professional</span>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About Me">
+                <span></span>
+                Scroll to explore
+            </a>
+        </section>
+
+        <!-- About -->
+        <section class="section section-anchor" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">A LITTLE ABOUT ME</p>
+                    <h2 class="section-title">
+                        Turning curiosity into <span class="gradient-text">capability.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        A little about my background, what I enjoy, and where I want to go.
+                    </p>
+                </div>
+
+                <div class="about-layout">
+                    <article class="about-card reveal">
+                        <span class="card-kicker">MY STORY</span>
+                        <h3>Learning today. Building for tomorrow.</h3>
+
+                        <p>
+                            I have completed my Bachelor of Computer Applications
+                            (BCA) and want to build a career in the IT industry.
+                            I am interested in web technologies, programming,
+                            databases, and software quality.
+                        </p>
+
+                        <p>
+                            During my web development internship, I gained
+                            exposure to a website project for SVBS Tours and
+                            Travels. I also developed an academic travel booking
+                            project, which helped me understand application
+                            features and how different parts work together.
+                        </p>
+
+                        <p>
+                            I have completed my Software Testing training at QSpiders, 
+                            where I enhanced my knowledge of coding ,manual testing concepts, SDLC, STLC, test scenarios,
+                             test cases, and defect identification.
+                        </p><p>
+                             I am eager to begin my professional career, apply my technical knowledge, and learn from real-world challenges.
+                              As a fresher, I am immediately available to join and ready to contribute with a positive attitude,
+                               dedication, and a willingness to learn.
+                        </p>
+
+                        <a href="#experience" class="inline-link">
+                            Discover my experience <span>→</span>
+                        </a>
+                    </article>
+
+                    <div class="about-side">
+                        <article class="mini-card reveal">
+                            <div class="mini-card-icon purple-icon">⌘</div>
+                            <div>
+                                <h3>Technical curiosity</h3>
+                                <p>Exploring software, web development, databases, and testing.</p>
+                            </div>
+                        </article>
+
+                        <article class="mini-card reveal">
+                            <div class="mini-card-icon blue-icon">✧</div>
+                            <div>
+                                <h3>Growth mindset</h3>
+                                <p>Building skills through practice, feedback, and new challenges.</p>
+                            </div>
+                        </article>
+
+                        <article class="mini-card reveal">
+                            <div class="mini-card-icon pink-icon">◎</div>
+                            <div>
+                                <h3>Career goal</h3>
+                                <p>Contributing to a team while developing as a software professional.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="stats-grid reveal">
+                    <div class="stat-item">
+                        <strong>9.53</strong>
+                        <span>BCA CGPA</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>97%</strong>
+                        <span>PUC Result</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>30 Days</strong>
+                        <span>Internship</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>4</strong>
+                        <span>Featured Projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+           <!-- resume -->
+        <section class="section section-anchor" id="resume">
+            <div class="container">
+                <div class="resume-panel reveal">
+                    <div class="resume-decoration resume-decoration-one"></div>
+                    <div class="resume-decoration resume-decoration-two"></div>
+
+                    <div class="resume-content">
+                        <p class="eyebrow">WANT TO KNOW MORE?</p>
+                        <h2>Let's take the next step <span>together.</span></h2>
+                        <p>
+                            Explore my resume for more information about my education,
+                            skills, internship experience, and projects.
+                        </p>
+
+                        <div class="resume-actions">
+                            <a href= "Resume  (4).pdf" class="btn btn-light" target="_blank"
+                               rel="noopener noreferrer">
+                                View My Resume <span>↗</span>
+                            </a>
+                            <a href="#contact" class="btn btn-resume-outline">
+                                Contact Me
+                            </a>
+                        </div>
+
+                        <p class="resume-note">
+                            <!-- Place your actual resume PDF in this folder and name it -->
+                            <!-- <strong>resume.pdf</strong>. -->
+                        </p>
+                    </div>
+
+                    <div class="resume-art" aria-hidden="true">
+                        <div class="resume-paper">
+                            <div class="paper-avatar">A</div>
+                            <div class="paper-line paper-line-long"></div>
+                            <div class="paper-line paper-line-short"></div>
+                            <div class="paper-divider"></div>
+                            <div class="paper-line"></div>
+                            <div class="paper-line"></div>
+                            <div class="paper-line paper-line-short"></div>
+                            <div class="paper-chip">RESUME</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Education -->
+        <section class="section section-anchor" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2 class="section-title">
+                        The foundation of my <span class="gradient-text">journey.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        My education has helped me build a foundation in computer applications.
+                    </p>
+                </div>
+
+                <div class="education-grid">
+                    <article class="education-card education-featured reveal">
+                        <div class="education-top">
+                            <div class="education-icon">🎓</div>
+                            <span class="education-badge">GRADUATED - 2026</span>
+                        </div>
+                        <p class="education-level">UNDERGRADUATE DEGREE</p>
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p class="education-institute">Vidya Sanskaar Institute of Science, Commerce and Management</p>
+                        <div class="education-result">
+                            <strong>9.53</strong>
+                            <span>CGPA</span>
+                        </div>
+                    </article>
+
+                    <article class="education-card reveal">
+                        <div class="education-top">
+                            <div class="education-icon education-icon-blue">📘</div>
+                            <span class="education-badge">PUC-2023</span>
+                        </div>
+                        <p class="education-level">PRE-UNIVERSITY</p>
+                        <h3>Pre-University Course</h3>
+                        <p class="education-institute">Vidya Sanskar Pre-University College</p>
+                        <div class="education-result">
+                            <strong>97%</strong>
+                            <span>Result</span>
+                        </div>
+                    </article>
+
+                    <article class="education-card reveal">
+                        <div class="education-top">
+                            <div class="education-icon education-icon-pink">📚</div>
+                            <span class="education-badge">SCHOOL</span>
+                        </div>
+                        <p class="education-level">SCHOOL EDUCATION</p>
+                        <h3>School Education</h3>
+                        <p class="education-institute">New Oxford Public School</p>
+                        <div class="education-result education-result-text">
+                            <strong>Learning foundation</strong>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning and Development -->
+        <!-- <section class="section section-tinted section-anchor" id="learning">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">ALWAYS MOVING FORWARD</p>
+                    <h2 class="section-title">
+                        Learning never <span class="gradient-text">stops.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Areas I am continuing to explore and strengthen.
+                    </p>
+                </div>
+
+                <div class="learning-grid">
+                    <article class="learning-card reveal">
+                        <span class="learning-icon">⌕</span>
+                        <h3>Software Testing</h3>
+                        <p>Practising test scenarios, test cases, testing principles, and defect life cycle.</p>
+                        <span class="learning-status">Currently learning</span>
+                    </article>
+
+                    <article class="learning-card reveal">
+                        <span class="learning-icon">⌘</span>
+                        <h3>Programming & SQL</h3>
+                        <p>Strengthening Java fundamentals, SQL queries, and problem-solving.</p>
+                        <span class="learning-status">Practising</span>
+                    </article>
+
+                    <article class="learning-card reveal">
+                        <span class="learning-icon">✧</span>
+                        <h3>Project Development</h3>
+                        <p>Improving project quality, usability, and understanding of application features.</p>
+                        <span class="learning-status">Learning by building</span>
+                    </article>
+                </div>
+
+                <p class="section-footnote">
+                    These are learning activities, not claims of earned certifications.
+                    Add certificate details only when you have actually received them.
+                </p>
+            </div>
+        </section> -->
+
+        <!-- Skills -->
+        <section class="section section-tinted section-anchor" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY TOOLKIT</p>
+                    <h2 class="section-title">
+                        Skills I'm <span class="gradient-text">building.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Technologies and concepts I have studied or used in projects.
+                    </p>
+                </div>
+
+                
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-purple">🌐</div>
+                            <span class="skill-number">01</span>
+                        </div>
+                        <h3>HTML & CSS</h3>
+                        <p>Structuring web pages and creating responsive layouts and styles.</p>
+                        <div class="skill-tags">
+                            <span>HTML5</span><span>CSS3</span><span>Responsive UI</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-yellow">☕</div>
+                            <span class="skill-number">02</span>
+                        </div>
+                        <h3>Java</h3>
+                        <p>Practising programming fundamentals and object-oriented concepts.</p>
+                        <div class="skill-tags">
+                            <span>OOP</span><span>Core concepts</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-blue">▤</div>
+                            <span class="skill-number">03</span>
+                        </div>
+                        <h3>SQL & Databases</h3>
+                        <p>Learning database queries and working with stored application data.</p>
+                        <div class="skill-tags">
+                            <span>SQL</span><span>MySQL</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-pink">⌕</div>
+                            <span class="skill-number">04</span>
+                        </div>
+                        <h3>Manual Testing</h3>
+                        <p>Learning to design test cases, identify defects, and verify functionality.</p>
+                        <div class="skill-tags">
+                            <span>Test cases</span><span>STLC</span><span>Defect life cycle</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-green">⌘</div>
+                            <span class="skill-number">05</span>
+                        </div>
+                        <h3>Git & GitHub</h3>
+                        <p>Learning version control and organising project code.</p>
+                        <div class="skill-tags">
+                            <span>Git</span><span>GitHub</span>
+                        </div>
+                    </article>
+                    
+<!-- Skill 07: Apache JMeter -->
+<article class="skill-card reveal">
+    <div class="skill-card-top">
+        <div class="skill-icon icon-orange">⚡</div>
+        <span class="skill-number">06</span>
+    </div>
+    <h3>Apache JMeter</h3>
+    <p>Learning performance testing concepts to evaluate application response times and behaviour under load.</p>
+    <div class="skill-tags">
+        <span>Performance Testing</span>
+        <span>Load Testing</span>
+    </div>
+</article>
+
+<!-- Skill 08: Selenium -->
+<article class="skill-card reveal">
+    <div class="skill-card-top">
+        <div class="skill-icon icon-green">⌘</div>
+        <span class="skill-number">07</span>
+    </div>
+    <h3>Selenium</h3>
+    <p> Currently improving my automation testing skills.</p>
+    <div class="skill-tags">
+        <span>Automation Testing</span>
+        <span>Web Testing</span>
+    </div>
+</article>
+
+
+                    <article class="skill-card reveal">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-orange">✧</div>
+                            <span class="skill-number">08</span>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Applying web technologies to academic and internship projects.</p>
+                        <div class="skill-tags">
+                            <span>UI development</span><span>Project work</span>
+                        </div>
+                    </article>
+                </div>
+                
+
+                
+
+                <p class="section-footnote">
+                    I am continuing to practise and improve these skills. This list reflects
+                    my learning areas, not a claim of expert-level proficiency.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-anchor" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2 class="section-title">
+                        Projects that bring ideas <span class="gradient-text">to life.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        A selection of my internship and academic project work.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-cover cover-travel">
+                            <div class="project-cover-top">
+                                <span class="project-label">INTERNSHIP PROJECT</span>
+                                <span class="project-index">01 / 02</span>
+                            </div>
+
+                            <div class="travel-illustration" aria-hidden="true">
+                                <span class="travel-sun"></span>
+                                <span class="travel-mountain mountain-one"></span>
+                                <span class="travel-mountain mountain-two"></span>
+                                <span class="travel-plane">✈</span>
+                            </div>
+
+                            <span class="cover-caption">Discover somewhere new.</span>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-category">WEB DEVELOPMENT</div>
+                            <h3>SVBS Tours and Travels</h3>
+                            <p>
+                                A travel website project developed during my
+                                web development internship, focused on presenting
+                                travel destinations and tour information.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="https://svbstravels.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                Visit website <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-cover cover-booking">
+                            <div class="project-cover-top">
+                                <span class="project-label">ACADEMIC PROJECT</span>
+                                <span class="project-index">02 / 02</span>
+                            </div>
+
+                            <div class="booking-illustration" aria-hidden="true">
+                                <div class="booking-window">
+                                    <div class="window-dots"><i></i><i></i><i></i></div>
+                                    <div class="booking-title-line"></div>
+                                    <div class="booking-row"><span></span><span></span></div>
+                                    <div class="booking-row"><span></span><span></span></div>
+                                    <div class="booking-button"></div>
+                                </div>
+                                <span class="booking-spark spark-one">✦</span>
+                                <span class="booking-spark spark-two">✧</span>
+                            </div>
+
+                            <span class="cover-caption">Plan. Book. Explore.</span>
+                        </div>
+
+                        <div class="project-content">
+                            <div class="project-category">TRAVEL BOOKING APPLICATION</div>
+                            <h3>AM Dream Travels</h3>
+                            <p>
+                                An academic travel booking application with
+                                registration, login, destination booking,
+                                and administrative booking management.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                            <!-- Add your repository link here when available -->
+                            <!-- <a href="https://github.com/"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-link">
+                                Explore code <span>↗</span>
+
+                            </a>
+                            <p class="project-small-note">
+                                <!-- Replace this link with your actual project repository. -->
+                            </p> 
+                        </div>
+                    </article>
+                </div>
+
+                <div class="projects-bottom reveal">
+                    <p>Every project is an opportunity to learn something new.</p>
+                    <a href="#contact" class="inline-link">Let's work together <span>→</span></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section section-tinted section-anchor" id="experience">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY JOURNEY SO FAR</p>
+                    <h2 class="section-title">
+                        Learning through <span class="gradient-text">experience.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Practical exposure that helped connect my studies with project work.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"><span></span></div>
+
+                        <div class="timeline-card">
+                            <div class="timeline-meta">
+                                <span class="timeline-type">INTERNSHIP</span>
+                                <span class="timeline-duration">30 days</span>
+                            </div>
+
+                            <h3>Web Developer Intern</h3>
+                            <h4>ShaRa Technovate</h4>
+
+                            <p>
+                                Worked on a web development project for SVBS Tours
+                                and Travels. Gained exposure to building website
+                                structure, styling pages, and collaborating on a project.
+                            </p>
+
+                            <ul class="experience-points">
+                                <li>Contributed to web-based work related to the Namma Nela e-paper.</li>
+                                <li>Practised front-end development concepts.</li>
+                                <li>Collaborated with team members and coordinated tasks in a fully remote working environment.</li>
+                                <li>Tested a school website to identify UI issues, alignment problems, and functional defects.</li>
+                                <li>Gained hands-on experience with real-world projects, website development, and software testing.</li>
+                            </ul>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Team Project</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item reveal">
+                        <div class="timeline-marker"><span></span></div>
+
+                        <div class="timeline-card">
+                            <div class="timeline-meta">
+                                <span class="timeline-type timeline-learning">COURSE COMPLETED</span>
+                            </div>
+
+                            <h3>Software Testing & Technical Practice</h3>
+                            <h4>Skill development</h4>
+
+                            <p>
+                                Continuing to study manual testing, Java, SQL,
+                                test case design, and defect reporting while
+                                practising technical concepts.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Manual Testing</span>
+                                <span>Java</span>
+                                <span>SQL</span>
+                                <span>Selenium</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education
+        <section class="section section-anchor" id="education">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">MY ACADEMIC BACKGROUND</p>
+                    <h2 class="section-title">
+                        The foundation of my <span class="gradient-text">journey.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        My education has helped me build a foundation in computer applications.
+                    </p>
+                </div>
+
+                <div class="education-grid">
+                    <article class="education-card education-featured reveal">
+                        <div class="education-top">
+                            <div class="education-icon">🎓</div>
+                            <span class="education-badge">GRADUATED · 2026</span>
+                        </div>
+                        <p class="education-level">UNDERGRADUATE DEGREE</p>
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p class="education-institute">Vidya Sanskar Pre-University College</p>
+                        <div class="education-result">
+                            <strong>9.53</strong>
+                            <span>CGPA</span>
+                        </div>
+                    </article>
+
+                    <article class="education-card reveal">
+                        <div class="education-top">
+                            <div class="education-icon education-icon-blue">📘</div>
+                            <span class="education-badge">PUC</span>
+                        </div>
+                        <p class="education-level">PRE-UNIVERSITY</p>
+                        <h3>Pre-University Course</h3>
+                        <p class="education-institute">Vidya Sanskar PU College</p>
+                        <div class="education-result">
+                            <strong>97%</strong>
+                            <span>Result</span>
+                        </div>
+                    </article>
+
+                    <article class="education-card reveal">
+                        <div class="education-top">
+                            <div class="education-icon education-icon-pink">📚</div>
+                            <span class="education-badge">SCHOOL</span>
+                        </div>
+                        <p class="education-level">SCHOOL EDUCATION</p>
+                        <h3>School Education</h3>
+                        <p class="education-institute">New Public School</p>
+                        <div class="education-result education-result-text">
+                            <strong>Learning foundation</strong>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Learning and Development -->
+        <!-- <section class="section section-tinted section-anchor" id="learning">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">ALWAYS MOVING FORWARD</p>
+                    <h2 class="section-title">
+                        Learning never <span class="gradient-text">stops.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Areas I am continuing to explore and strengthen.
+                    </p>
+                </div>
+
+                <div class="learning-grid">
+                    <article class="learning-card reveal">
+                        <span class="learning-icon">⌕</span>
+                        <h3>Software Testing</h3>
+                        <p>Practising test scenarios, test cases, testing principles, and defect life cycle.</p>
+                        <span class="learning-status">Currently learning</span>
+                    </article>
+
+                    <article class="learning-card reveal">
+                        <span class="learning-icon">⌘</span>
+                        <h3>Programming & SQL</h3>
+                        <p>Strengthening Java fundamentals, SQL queries, and problem-solving.</p>
+                        <span class="learning-status">Practising</span>
+                    </article>
+
+                    <article class="learning-card reveal">
+                        <span class="learning-icon">✧</span>
+                        <h3>Project Development</h3>
+                        <p>Improving project quality, usability, and understanding of application features.</p>
+                        <span class="learning-status">Learning by building</span>
+                    </article>
+                </div>
+
+                <p class="section-footnote">
+                    These are learning activities, not claims of earned certifications.
+                    Add certificate details only when you have actually received them.
+                </p>
+            </div>
+        </section> -->
+
+        <!-- Resume -->
+        <!-- <section class="section section-anchor" id="resume">
+            <div class="container">
+                <div class="resume-panel reveal">
+                    <div class="resume-decoration resume-decoration-one"></div>
+                    <div class="resume-decoration resume-decoration-two"></div>
+
+                    <div class="resume-content">
+                        <p class="eyebrow">WANT TO KNOW MORE?</p>
+                        <h2>Let's take the next step <span>together.</span></h2>
+                        <p>
+                            Explore my resume for more information about my education,
+                            skills, internship experience, and projects.
+                        </p>
+
+                        <div class="resume-actions">
+                            <a href= "Resume  (4).pdf" class="btn btn-light" target="_blank"
+                               rel="noopener noreferrer">
+                                View My Resume <span>↗</span>
+                            </a>
+                            <a href="#contact" class="btn btn-resume-outline">
+                                Contact Me
+                            </a>
+                        </div>
+
+                        <p class="resume-note">
+                            <!-- Place your actual resume PDF in this folder and name it -->
+                            <!-- <strong>resume.pdf</strong>.
+                        </p>
+                    </div>
+
+                    <div class="resume-art" aria-hidden="true">
+                        <div class="resume-paper">
+                            <div class="paper-avatar">A</div>
+                            <div class="paper-line paper-line-long"></div>
+                            <div class="paper-line paper-line-short"></div>
+                            <div class="paper-divider"></div>
+                            <div class="paper-line"></div>
+                            <div class="paper-line"></div>
+                            <div class="paper-line paper-line-short"></div>
+                            <div class="paper-chip">RESUME</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> --> -->
+
+        <!-- Contact -->
+        <section class="section section-tinted section-anchor" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">LET'S CONNECT</p>
+                    <h2 class="section-title">
+                        Have an opportunity? <span class="gradient-text">Let's talk.</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        I am interested in entry-level opportunities where I can learn,
+                        contribute, and grow professionally.
+                    </p>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-intro reveal">
+                        <h3>I'd love to hear from you.</h3>
+                        <p>
+                            Whether it is a job opportunity, a project discussion,
+                            or a chance to learn, feel free to reach out.
+                        </p>
+
+                        <div class="contact-detail">
+                            <span class="contact-detail-icon">✉</span>
+                            <div>
+                                <small>Email</small>
+                                <!-- Replace with your real email -->
+                                <a href="mailto:ankithaa1369@gmail.com">
+                                    ankithaa1369@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-detail-icon">⌘</span>
+                            <div>
+                                <small>Professional profile</small>
+                                <a href="https://www.linkedin.com/in/ankitha-murthy1369/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    Connect on LinkedIn ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <span class="contact-detail-icon">{"</>"}</span>
+                            <div>
+                                <small>Project code</small>
+                                <a href="http://github.com/ankithaa1369"
+                                   target="_blank" rel="noopener noreferrer">
+                                    Explore GitHub ↗
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form reveal" id="contact-form">
+                        <h3>Send a message</h3>
+                        <p class="form-subtitle">
+                            Complete the fields to open a message in your email app.
+                        </p>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name">Your name</label>
+                                <input
+                                    type="text"
+                                    id="contact-name"
+                                    name="name"
+                                    placeholder="Enter your name"
+                                    autocomplete="name"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email">Your email</label>
+                                <input
+                                    type="email"
+                                    id="contact-email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input
+                                type="text"
+                                id="contact-subject"
+                                name="subject"
+                                placeholder="What would you like to discuss?"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea
+                                id="contact-message"
+                                name="message"
+                                rows="5"
+                                placeholder="Write your message here..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary form-submit">
+                            Prepare Email <span>↗</span>
+                        </button>
+
+                        <p class="form-note" id="form-note" role="status">
+                            <!-- This form opens your email application; it does not send
+                            or store messages on a server. -->
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo footer-logo">ankita<span>.</span></a>
+
+            <p>Designed with care by Ankita.</p>
+
+            <p class="copyright">
+                © <span id="year"></span> Ankita. All rights reserved.
+            </p>
+
+            <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+        </div>
+    </footer> -->
+</body>
+</html>
